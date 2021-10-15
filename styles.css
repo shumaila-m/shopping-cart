@@ -1,0 +1,112 @@
+.font-cursive {
+    font-family: "Great Vibes", cursive;
+  }
+  
+  .container-listing .card {
+    border-radius: 10% 10% 0 10%;
+    height: 100%;
+    background-color: rgb(196, 238, 205);
+  }
+  .container-listing img {
+    border-radius: 0 10%;
+  }
+  .orderdetails {
+    background-color: rgb(196, 238, 205);
+    margin-top: 5%;
+    padding-bottom: 10px;
+  }
+  .cart .table {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+  }
+  .cart .table thead tr th {
+    border-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 0px;
+  }
+  .cart .table tbody tr th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    align-self: center;
+  }
+  .cart .table tbody tr td .main .d-flex {
+    padding-right: 30px;
+  }
+  .cart .table tbody tr td .main .d-flex img {
+    border: 3px solid #000 !important;
+    border-radius: 3px;
+  }
+  .cart .table tbody tr td .main .des {
+    vertical-align: middle;
+    align-self: center;
+  }
+  .cart .table tbody tr td .main .des p {
+    margin-bottom: 0px;
+  }
+  .cart .table tbody tr td h6 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0px;
+  }
+  .cart .table tbody tr td .counter {
+    margin-bottom: 0px;
+  }
+  .counter {
+    border: 1px solid #000;
+    padding: 0in7px;
+    display: inline-block;
+    position: relative;
+  }
+  .cart .table tbody tr td .counter input {
+    width: 100px;
+    padding-left: 30px;
+    height: 40px;
+    outline: none;
+    box-shadow: none;
+  }
+  .checkout ul {
+    border: 2px solid #ebebeb;
+    background: #f3f3f3;
+    padding: 25 25 16 20;
+  }
+  .checkout ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252525;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .checkout ul li.subtotal {
+    font-weight: lighter;
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 14px;
+  }
+  .checkout ul li.subtotal span {
+    font-weight: bold;
+  }
+  .checkout ul li .cart-total {
+    padding-top: 10px;
+  }
+  .checkout ul li .cart-total span {
+    color: #e7ab3c;
+  }
+  .checkout ul li span {
+    float: right;
+  }
+  .checkout .prpceed-btn {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: #252525;
+    text-transform: uppercase;
+    padding: 15 25 14 25;
+    
+  }
+  
+  .back {
+    margin-left: 100px;
+  }
