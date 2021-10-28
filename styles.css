@@ -1,12 +1,12 @@
 .font-cursive {
   font-family: "Great Vibes", cursive;
-  color: rgb(230, 167, 51);
+  color: rgba(143, 36, 134, 0.658);
 }
 .container-listing {
-  background-color: rgb(82, 85, 93);
+  background-color: rgb(238, 206, 63);
 }
 .container-listing .card {
-  border-radius: 10% 10% 0 10%;
+  border-radius: 0 8% 0 10%;
   background-color: rgb(149, 105, 158);
   height: 500px;
 }
@@ -17,7 +17,7 @@
   border-radius: 0 10%;
 }
 .container-cart {
-  background-color: rgb(82, 85, 93);
+  background-color: rgb(238, 206, 63);
 }
 
 .checkout ul {
@@ -47,7 +47,7 @@
   font-size: 15px;
   font-weight: bold;
   color: #fff;
-  background: #252525;
+  background: #05a813;
   text-transform: uppercase;
   padding: 15 25 14 25;
   display: inline-block;
