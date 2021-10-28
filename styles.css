@@ -3,13 +3,17 @@
 }
 
 .container-listing .card {
-  border-radius: 10% 10% 0 10%;
-  height: 100%;
-  background-color: rgb(196, 238, 205);
+  border-radius: 0 0 0 10%;
+  height: 500px;
+  background-color: rgb(204, 170, 190);
 }
 .container-listing img {
   border-radius: 0 10%;
 }
+.container-cart {
+  background-color: rgb(82, 85, 93);
+}
+
 
 .checkout ul {
   border: 2px solid #ebebeb;
@@ -29,7 +33,7 @@
   padding-top: 10px;
 }
 .checkout ul li .cart-total span {
-  color: #e7ab3c;
+  color: #f3ddb5;
 }
 .checkout ul li span {
   float: right;

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="./styles.css" rel="stylesheet">
     <!-- bootstrap-icons -->
     <link
       rel="stylesheet"
@@ -22,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
       rel="stylesheet"
     />
-    <link href="./css/styles.css" rel="stylesheet" />
+    
 
     <title>Shopping Cart!</title>
   </head>
@@ -31,7 +32,7 @@
 
     <!-- Nav bar starts here -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Home</a>
         <button
@@ -95,7 +96,7 @@
     <!-- heading ends here -->
 
     <!--Listing start here-->
-    <section class="container container-listing">
+    <section class="container container-listing mb-5">
       <h2 class="font-cursive" id="listing">Listing</h2>
       <div class="row">
         <!--start dress 1-->
@@ -103,7 +104,7 @@
           <div class="card mb-5" style="width: 15rem">
             <img
               src="./image/longdress3.jpg"
-              class="card-img-top"
+              class="card-imgage"
               alt="floral dress"
             />
             <div class="card-body">
@@ -111,7 +112,7 @@
               <div class="shop-item-details">
                 <span class="shop-item-price">$160</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-outline-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -125,13 +126,13 @@
         <!--start shirt 2-->
         <div class="col mb-3">
           <div class="card" style="width: 15rem">
-            <img src="./image/belted dress2.jpg" class="card-img-top" alt="shirt" />
+            <img src="./image/belted dress2.jpg" class="card-image" alt="shirt" />
             <div class="card-body">
               <h5 class="card-title">Belted shirt</h5>
               <div class="shop-item-details">
                 <span class="shop-item-price">$120</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-outline-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -147,7 +148,7 @@
           <div class="card" style="width: 15rem">
             <img
               src="./image/longdress4.jfif"
-              class="card-img-top"
+              class="card-image"
               alt="dress"
             />
             <div class="card-body">
@@ -155,7 +156,7 @@
               <div class="shop-item-details">
                 <span class="shop-item-price">$180</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-outline-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -170,15 +171,15 @@
           <div class="card" style="width: 15rem">
             <img
               src="./image/longdress1.jfif"
-              class="card-img-top"
+              class="card-image"
               alt="dress"
             />
             <div class="card-body">
-              <h5 class="card-title">Long Dress</h5>
+              <h5 class="card-title">Long Floral Dress</h5>
               <div class="shop-item-details">
                 <span class="shop-item-price">$160</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-online-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -194,15 +195,15 @@
           <div class="card" style="width: 15rem">
             <img
               src="./image/longdress6.webp"
-              class="card-img-top"
+              class="card-image"
               alt="dress"
             />
             <div class="card-body">
-              <h5 class="card-title">Long Dress</h5>
+              <h5 class="card-title">Chiffon Dress</h5>
               <div class="shop-item-details">
                 <span class="shop-item-price">$190</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-online-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -217,7 +218,7 @@
           <div class="card" style="width: 15rem">
             <img
               src="./image/jeans.jfif"
-              class="card-img-top"
+              class="card-image"
               alt="jeans"
             />
             <div class="card-body">
@@ -225,7 +226,7 @@
               <div class="shop-item-details">
                 <span class="shop-item-price">$110</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-online-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -240,7 +241,7 @@
           <div class="card" style="width: 15rem">
             <img
               src="./image/jeans1.jpg"
-              class="card-img-top"
+              class="card-image"
               alt="jeans"
             />
             <div class="card-body">
@@ -248,7 +249,7 @@
               <div class="shop-item-details">
                 <span class="shop-item-price">$140</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-online-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -263,7 +264,7 @@
           <div class="card" style="width: 15rem">
             <img
               src="./image/jeans5.jfif"
-              class="card-img-top"
+              class="card-image"
               alt="jeans"
             />
             <div class="card-body">
@@ -271,7 +272,7 @@
               <div class="shop-item-details">
                 <span class="shop-item-price">$100</span>
                 <button
-                  class="btn btn-secondary shop-item-button"
+                  class="btn btn-online-warning shop-item-button"
                   type="button"
                 >
                   ADD TO CART
@@ -287,7 +288,7 @@
 
     <!-- Order details start here -->
 
-    <section class="container cart-items">
+    <section class="container-cart cart-items pt-3 pb-2 mb-3 mb-3 mx-5">
 
       <!-- First item starts here -->
 
@@ -335,7 +336,7 @@
                 </div>
                 <!-- Second item ends here-->  
       <!-- Third item starts here -->
-      <div class="row cart-row">
+      <div class="row cart-row mb-3">
         <div class="cart-item col-3">
           <img
             class="cart-item-image"
@@ -391,7 +392,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-    <script src="./js/cartManager.js" > </script>
+    <!-- javascript gets linked here  -->
+    
     <script src="./js/store.js"></script>
   </body>
 </html>

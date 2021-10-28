@@ -1,9 +1,9 @@
 function createCartHtml(title, price, quantity) {
-    const html = <div class="row cart-row mb-3">
+    const html = `<div class="row cart-row mb-3">
           <div class="cart-item col-3">
             <img
               class="cart-item-image"
-              src="./image/bridaldress.jfif"
+              src="${imgsrc}"
               width="100"
               height="100"
             />
@@ -22,4 +22,4 @@ function createCartHtml(title, price, quantity) {
               Remove
             </button>
           </div>
-          </div>
+          </div>`}
