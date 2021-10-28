@@ -1,19 +1,24 @@
 .font-cursive {
   font-family: "Great Vibes", cursive;
+  color: rgb(230, 167, 51);
 }
-
+.container-listing {
+  background-color: rgb(82, 85, 93);
+}
 .container-listing .card {
-  border-radius: 0 0 0 10%;
+  border-radius: 10% 10% 0 10%;
+  background-color: rgb(149, 105, 158);
   height: 500px;
-  background-color: rgb(204, 170, 190);
+}
+.card-image {
+  width: 100%;
 }
 .container-listing img {
   border-radius: 0 10%;
 }
 .container-cart {
-  background-color: rgb(155, 158, 165);
+  background-color: rgb(82, 85, 93);
 }
-
 
 .checkout ul {
   border: 2px solid #ebebeb;
@@ -24,7 +29,7 @@
   list-style: none;
   font-size: 16px;
   font-weight: bold;
-  color: #71977e;
+  color: #252525;
   text-transform: uppercase;
   overflow: hidden;
 }
@@ -33,7 +38,7 @@
   padding-top: 10px;
 }
 .checkout ul li .cart-total span {
-  color: #f3ddb5;
+  color: #e7ab3c;
 }
 .checkout ul li span {
   float: right;
@@ -42,7 +47,7 @@
   font-size: 15px;
   font-weight: bold;
   color: #fff;
-  background: #307771;
+  background: #252525;
   text-transform: uppercase;
   padding: 15 25 14 25;
   display: inline-block;
